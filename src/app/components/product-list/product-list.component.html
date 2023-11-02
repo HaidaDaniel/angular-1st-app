@@ -1,5 +1,10 @@
-<h2>Список товаров</h2>
+<!-- <h2>Список товаров</h2>
 
 <div *ngFor="let product of products">
     <app-product [product]="product"></app-product>
-</div>
+</div> -->
+<h2>Product list</h2>
+
+<ng-container *ngFor="let product of products">
+    <app-product [product]="product"></app-product>
+</ng-container>
